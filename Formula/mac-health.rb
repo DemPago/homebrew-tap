@@ -1,8 +1,8 @@
 class MacHealth < Formula
   desc "Check rapido delle prestazioni del Mac (RAM, swap, CPU, disco)"
   homepage "https://github.com/DemPago/mac-health"
-  url "https://github.com/DemPago/mac-health/archive/refs/tags/v1.5.1.tar.gz"
-  sha256 "da730f3816900ddaca3a50425177978a7615320e1fc1a6aa81478aa61046e532"
+  url "https://github.com/DemPago/mac-health/archive/refs/tags/v1.5.2.tar.gz"
+  sha256 "85afae94c689853999163456811cd3aac7b9c655c93a9a6a8a83629764c4eeab"
   license "MIT"
 
   def install

@@ -6,6 +6,7 @@ class MacHealth < Formula
   license "MIT"
 
   def install
+    inreplace "bin/mac-health", /VERSION=.*/, "VERSION=\"#{version}\""
     bin.install "bin/mac-health"
   end
 
